@@ -5,7 +5,7 @@ The python program in this project retrieve Real time AQI data from ``` https://
 After retrieving the data from the govt. API it loads it and then ask for user to enter a **city** name and as I have used free API it gives limited data at a time 
 As this is just a sample I am not using my personal ``` API key ``` and I will update the key once I complete this whole project.  
 Sample output:  
-![You have Entered: Amaravati
+You have Entered: Amaravati
 
 Pollutant Type: PM2.5 ||Min value: 2 ||Max value: 17 ||Avg Pollution: 7
 
@@ -20,4 +20,5 @@ Pollutant Type: SO2 ||Min value: 8 ||Max value: 19 ||Avg Pollution: 14
 Pollutant Type: CO ||Min value: 22 ||Max value: 32 ||Avg Pollution: 25
 
 Pollutant Type: OZONE ||Min value: 14 ||Max value: 46 ||Avg Pollution: 36
-Last Updated:  02-08-2020 08:00:00](Image\sample_Output.jpg)
+Last Updated:  02-08-2020 08:00:00  
+![](Image\sample_Output.jpg)
