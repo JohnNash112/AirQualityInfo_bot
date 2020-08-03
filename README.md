@@ -2,8 +2,9 @@
 # Search for real time AQI of the cities in India
 ``` This is just a small implementation of web data parshing and working with APIs. ```  
 The python program in this project retrieve Real time AQI data from ``` https://data.gov.in ```.  
-After retrieving the data from the govt. API it loads it and then ask for user to enter a **city** name and as I have used free API it gives limited data at a time 
-As this is just a sample I am not using my personal ``` API key ``` and I will update the key once I complete this whole project.  
+After retrieving the data from the govt. API it loads it and then ask for user to enter a **city** name and if the city name provided by the user is not in the govt database it will give a list of cities one can search for.  
+I am using my personal **API** key for retrieving data from the source but for testing out the code one can replace the url in the index.py code with this free **API** url *``` https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69?api-key=579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b&format=json&offset=0&limit=10 ```*  
+Before executing the program with the free **API** you must comment out line **6 to 16** as these lines in the index.py is used for reading the API_KEY from the .dev file using the OS. 
 Sample output:  
 You have Entered: Amaravati
 
