@@ -10,20 +10,17 @@ Before executing the program with the free **API** you must **Comment out line *
 2. Create a ``` .dotenv ``` in your current workspace and write ``` API_KEY = 'YOUR API KEY HERE' ``` and save it.  
 3. Now you are all set to get data from [https://data.gov.in] using your own API.  
 Sample output:  
-You have Entered: Amaravati
+Enter the name of city or enter to end: Varanasi  
+Pollution Station: Ardhali Bazar, Varanasi - UPPCB  
+Pollutant Type: PM2.5 ||Min value: 33 ||Max value: 117 ||Avg Pollution: 64  
 
-Pollutant Type: PM2.5 ||Min value: 2 ||Max value: 17 ||Avg Pollution: 7
+Pollution Station: Ardhali Bazar, Varanasi - UPPCB  
+Pollutant Type: NO2 ||Min value: 6 ||Max value: 29 ||Avg Pollution: 22  
 
-Pollutant Type: PM10 ||Min value: 6 ||Max value: 24 ||Avg Pollution: 13
+Pollution Station: Ardhali Bazar, Varanasi - UPPCB  
+Pollutant Type: OZONE ||Min value: 7 ||Max value: 17 ||Avg Pollution: 13  
 
-Pollutant Type: NO2 ||Min value: 4 ||Max value: 12 ||Avg Pollution: 7
-
-Pollutant Type: NH3 ||Min value: 2 ||Max value: 2 ||Avg Pollution: 2
-
-Pollutant Type: SO2 ||Min value: 8 ||Max value: 19 ||Avg Pollution: 14
-
-Pollutant Type: CO ||Min value: 22 ||Max value: 32 ||Avg Pollution: 25
-
-Pollutant Type: OZONE ||Min value: 14 ||Max value: 46 ||Avg Pollution: 36
-Last Updated:  02-08-2020 08:00:00  
+Last Updated:  03-08-2020 03:00:00
+Data from: Ministry of Environment and Forests  
+## Tearminal Output Sample
 ![](/Image/sample_Output.jpg)
