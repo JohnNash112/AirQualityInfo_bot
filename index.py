@@ -30,7 +30,7 @@ for i in range(count):
 #print(city_list)
 
 while(True):
-    city_in = input("Enter the name of city or enter to end: ")
+    city_in = input("Enter the name of city or press enter key to end: ")
     city_in = str(city_in.title())
     #print("You have Entered:",city_in)
     if(len(city_in)<1):
