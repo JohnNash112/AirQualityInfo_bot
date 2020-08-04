@@ -6,7 +6,7 @@ After retrieving the data from the govt. API it loads it and then ask for user t
 I am using my personal **API** key for retrieving data from the source but for testing out the code one can replace the url in the index.py code with this free **API** url (https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69?api-key=579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b&format=json&offset=0&limit=10)  
 Before executing the program with the free **API** you must **Comment out line *6 to 16* as these lines in the index.py is used for reading the API_KEY from the .dev file using the OS.**  
 ## If you want to execute the program with your own API please follow the steps given below:  
-1. Install ``` dotenv ``` to your system : execute ***``` pip install python-dotenv ```*** in cmd if you are using windows system.  
+1. Install ``` dotenv ``` on your system : execute ***``` pip install python-dotenv ```*** in cmd if you are using windows system.  
 2. Create a ``` .env ``` file in your current workspace and in that file write ``` API_KEY = 'YOUR API KEY HERE' ``` and save it.  
 3. Now you are all set to get data from (https://data.gov.in) using your own API.  
 
