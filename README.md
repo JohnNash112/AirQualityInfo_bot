@@ -1,4 +1,4 @@
-# realTimeAQI.py
+# AirQualityInfo_bot
 # Search for real time AQI of the cities in India
 ``` This is just a small implementation of web data parshing and working with APIs. ```  
 The python program in this project retrieve Real time AQI data from (https://data.gov.in).  
